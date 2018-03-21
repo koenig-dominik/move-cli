@@ -1,6 +1,6 @@
 {
   "name": "move-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The CLI implementation for sindresorhus/del-cli. Like `fs.rename`, but works across devices, and works with directories. Think of the unix utility `mv`.",
   "license": "MIT",
   "repository": "koenig-dominik/move-cli",
@@ -9,8 +9,8 @@
     "url": "https://github.com/koenig-dominik"
   },
   "bin": {
-    "mv": "cli.js",
-    "mv-cli": "cli.js"
+    "move": "cli.js",
+    "move-cli": "cli.js"
   },
   "engines": {
     "node": ">=4"
