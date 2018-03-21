@@ -6,7 +6,7 @@ const mv = require('mv');
 
 const cli = meow(`
 	Usage
-	  $ mv-cli source dest
+	  $ move-cli source dest
 	  
 	Options
 	  -md, --mkdirp    first create all necessary directories
@@ -14,7 +14,7 @@ const cli = meow(`
 	  -l, --limit      how many concurrent file requests can be made, default 16
 	  
 	Example
-	  $ mv-cli source/file dest/file
+	  $ move-cli source/file dest/file
 `, {
     flags: {
         mkdirp: {

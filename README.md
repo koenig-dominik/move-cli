@@ -1,4 +1,4 @@
-# mv-cli
+# move-cli
 
 > Move files and directories
 
@@ -8,17 +8,17 @@ Useful for use in build scripts and automated things.
 ## Install
 
 ```
-$ npm i mv-cli
+$ npm i move-cli
 ```
-
+__
 
 ## Usage
 
 ```
-$ mv-cli --help
+$ move-cli --help
 
   Usage
-  	  $ mv-cli source<path|glob> dest<path|glob>
+  	  $ move-cli source<path|glob> dest<path|glob>
   	  
   	Options
   	  -md, --mkdirp    first create all necessary directories
@@ -26,7 +26,7 @@ $ mv-cli --help
   	  -l, --limit      how many concurrent file requests can be made, default 16
   	  
   	Example
-  	  $ mv-cli source/file dest/file
+  	  $ move-cli source/file dest/file
 ```
 
 

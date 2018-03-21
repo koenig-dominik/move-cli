@@ -1,9 +1,9 @@
 {
-  "name": "mv-cli",
+  "name": "move-cli",
   "version": "1.0.0",
   "description": "The CLI implementation for sindresorhus/del-cli. Like `fs.rename`, but works across devices, and works with directories. Think of the unix utility `mv`.",
   "license": "MIT",
-  "repository": "koenig-dominik/mv-cli",
+  "repository": "koenig-dominik/move-cli",
   "author": {
     "name": "Dominik König",
     "url": "https://github.com/koenig-dominik"
@@ -24,11 +24,12 @@
   "keywords": [
     "mv",
     "move",
+    "mv-cli",
+    "move-cli",
     "rename",
     "device",
     "recursive",
     "folder",
-    "mv-cli",
     "cli"
   ],
   "dependencies": {
