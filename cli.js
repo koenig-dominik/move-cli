@@ -48,6 +48,6 @@ if (isNaN(cli.flags.limit)) {
     process.exit(1);
 }
 
-mv(cli.input[0], cli.input[1], {mkdirp: cli.flags.mkdirp, clobber: !cli.flags.noclobber, limit: limit}).then(err => {
+mv(cli.input[0], cli.input[1], {mkdirp: cli.flags.mkdirp, clobber: !cli.flags.noclobber, limit: limit}, (err) => {
     throw err;
 });
