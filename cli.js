@@ -49,5 +49,8 @@ if (isNaN(cli.flags.limit)) {
 }
 
 mv(cli.input[0], cli.input[1], {mkdirp: cli.flags.mkdirp, clobber: !cli.flags.noclobber, limit: limit}, (err) => {
-    throw err;
+    if(err) {
+        console.error(err);
+        process.exit(1);
+    }
 });
