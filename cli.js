@@ -6,7 +6,7 @@ const mv = require('mv');
 
 const cli = meow(`
 	Usage
-	  $ mv-cli source<path|glob> dest<path|glob>
+	  $ mv-cli source dest
 	  
 	Options
 	  -md, --mkdirp    first create all necessary directories
