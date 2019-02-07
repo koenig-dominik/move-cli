@@ -1,6 +1,6 @@
 {
   "name": "move-cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The CLI implementation for andrewrk/node-mv. Like `fs.rename`, but works across devices, and works with directories. Think of the unix utility `mv`.",
   "license": "MIT",
   "repository": "koenig-dominik/move-cli",
@@ -15,9 +15,7 @@
   "engines": {
     "node": ">=4"
   },
-  "scripts": {
-
-  },
+  "scripts": {},
   "files": [
     "cli.js"
   ],
