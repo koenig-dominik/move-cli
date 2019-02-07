@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-const updateNotifier = require('update-notifier');
 const meow = require('meow');
 const mv = require('mv');
 
@@ -34,8 +33,6 @@ const cli = meow(`
         }
     }
 });
-
-updateNotifier({pkg: cli.pkg}).notify();
 
 if (cli.input.length < 2) {
     console.error('Specify source and destination path');

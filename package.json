@@ -1,7 +1,7 @@
 {
   "name": "move-cli",
   "version": "1.2.0",
-  "description": "The CLI implementation for sindresorhus/del-cli. Like `fs.rename`, but works across devices, and works with directories. Think of the unix utility `mv`.",
+  "description": "The CLI implementation for andrewrk/node-mv. Like `fs.rename`, but works across devices, and works with directories. Think of the unix utility `mv`.",
   "license": "MIT",
   "repository": "koenig-dominik/move-cli",
   "author": {
@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": ""
+
   },
   "files": [
     "cli.js"
@@ -34,7 +34,6 @@
   ],
   "dependencies": {
     "meow": "^5.0.0",
-    "mv": "^2.1.1",
-    "update-notifier": "^2.5.0"
+    "mv": "^2.1.1"
   }
 }
