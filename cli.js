@@ -8,8 +8,8 @@ const cli = meow(`
 	  $ move-cli source dest
 	  
 	Options
-	  -md, --mkdirp    first create all necessary directories
-	  -nc, --noclobber don't overwrite existing files
+	  --md, --mkdirp    first create all necessary directories
+	  --nc, --noclobber don't overwrite existing files
 	  -l, --limit      how many concurrent file requests can be made, default 16
 	  
 	Example
