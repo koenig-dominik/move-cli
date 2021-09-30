@@ -13,7 +13,7 @@
     "move-cli": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {},
   "files": [
